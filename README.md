@@ -13,13 +13,35 @@ UMX/
 
 ## 🚀 Getting Started
 
+### Prerequisites
+
+**Install Expo CLI globally:**
+
+```bash
+npm install -g expo-cli
+```
+
+Or use npx without global installation (recommended):
+
+```bash
+npx expo --version
+```
+
 ### Frontend (React Native + Expo)
 
 ```bash
 cd frontend
-bun install
-bun start
+npm install
+npx expo start
 ```
+
+**Available Commands:**
+
+- `npx expo start` - Start the development server
+- `npx expo start --clear` - Start with cleared cache
+- `npx expo start --android` - Start and open on Android
+- `npx expo start --ios` - Start and open on iOS
+- `npx expo start --web` - Start and open on web
 
 ### Backend
 
@@ -38,16 +60,19 @@ cd AI
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - React Native
 - Expo Router
 - TypeScript
 - NativeWind (Tailwind CSS)
-- Bun
+- npm/npx
 
 ### Backend
+
 - TBD
 
 ### AI
+
 - TBD
 
 ## 📱 Features
@@ -60,6 +85,12 @@ cd AI
 ## 👨‍💻 Development
 
 This is a monorepo project. Each directory (frontend, backend, AI) can be developed independently.
+
+### Running on Different Platforms
+
+- **Android**: Press `a` in the terminal or run `npx expo start --android`
+- **iOS**: Press `i` in the terminal or run `npx expo start --ios`
+- **Web**: Press `w` in the terminal or run `npx expo start --web`
 
 ## 📄 License
 
