@@ -1,0 +1,33 @@
+# Expo specific
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# React Native / Expo
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.ipa
+*.apk
+
+# Metro bundler
+.metro-health-check*
+
+# Expo CLI
+.expo-shared/
+
+# EAS
+eas.json
+
+# Bun
+bun.lockb
+
+# TypeScript
+*.tsbuildinfo
+
+# App specific (if needed)
+# app-example
