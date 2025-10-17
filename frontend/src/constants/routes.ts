@@ -9,8 +9,11 @@ export const ROUTES = {
 
   // App routes
   APP: {
-    HOME: "/(app)/home" as const,
-    PROFILE: "/(app)/profile" as const,
+    HOME: "home" as const,
+    PROFILE: "profile" as const,
+    AAC: "aac" as const,
+    PROGRESS: "progress" as const,
+    CHAT_AI: "chat-ai" as const,
     // Add more app routes here as needed
   },
 } as const;

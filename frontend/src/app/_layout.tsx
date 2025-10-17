@@ -17,6 +17,9 @@ export default function Layout() {
       screenOptions={{
         headerShown: false,
       }}
-    />
+    >
+      <Stack.Screen name="(app)" />
+      <Stack.Screen name="(auth)" />
+    </Stack>
   );
 }
